@@ -3,21 +3,25 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "51x512",
+      "purpose":"maskable any"
     },
     {
-      "src": "logo192.png",
+      "src": "/images/icons-512.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x192",
+      "purpose":"any"
     }
   ],
+  "prefer_related_applications": true,
+"related_applications": [
+  {
+    "platform": "play",
+    "id": "com.google.samples.apps.iosched"
+  }
+],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
